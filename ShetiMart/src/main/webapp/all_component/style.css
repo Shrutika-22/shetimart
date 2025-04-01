@@ -1,0 +1,50 @@
+.bg-custom{
+    background-color: #303f9f;
+}
+.navbar .nav-item:hover .nav-link{
+	background-color:white ;
+	color:#303f9f ;
+	border-radius: 15px;
+}
+.site-footer {
+    background-color: #3875b2;
+    padding: 50px 0;
+    overflow: hidden; 
+}
+
+.site-footer h3 {
+    color: #fff; 
+}
+
+.site-footer p {
+    color: #ccc; 
+}
+
+.site-footer address {
+    margin-bottom: 20px;
+}
+
+.site-footer hr {
+    border-top-color: #fff; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons li a {
+    color: #fff; 
+    font-size: 20px;
+}
+
+.social-icons li a:hover {
+    color: #ccc; 
+}
