@@ -29,6 +29,10 @@
 			<a class="nav-link" href="farmerProfilePage.jsp">PROFILE</a> 
 			<a class="nav-link" href="#">ABOUT</a> 
 			<a class="nav-link" href="#">CONTACT</a>
+			<a class="nav-link" href="signup1.jsp" 
+       color: black; padding: 8px 8px; border-radius: 5px; text-decoration: none; margin: 6px;">
+        LOGOUT
+    </a>
 		</div>
 		<br>
 
@@ -52,7 +56,11 @@
 
 							<div align="center">
 								<br> <input name="id" value="<%=user.getId()%>" hidden>
-								<br> <label>Product Name: </label> <input type="text"
+								<br> <label>Product Image:</label>
+                                <input type="file" id="product_image" name="product_image" accept="image/*"><br>
+
+								
+								<label>Product Name: </label> <input type="text"
 									id="productName" name="productname" pattern="[A-Za-z\s]+"
 									placeholder="Product Name" size="35.4px"><br> <label>Product
 									Quantity: </label> <input type="text" id="productQuantity"
