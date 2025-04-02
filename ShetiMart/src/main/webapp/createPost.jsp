@@ -30,7 +30,7 @@
 			<a class="nav-link" href="#">ABOUT</a> 
 			<a class="nav-link" href="#">CONTACT</a>
 			<a class="nav-link" href="signup1.jsp" 
-       color: black; padding: 8px 8px; border-radius: 5px; text-decoration: none; margin: 6px;">
+       color: black; padding: 8px 8px; border-radius: 5px; text-decoration: none; margin: 6px;cursor: pointer;">
         LOGOUT
     </a>
 		</div>
